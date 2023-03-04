@@ -30,8 +30,10 @@
 
 <details>
   <summary>В чем различие между accessibilityidentifier и accessibilitylabel</summary>
+  
   accessibilityidentifier - Это строка идентифицирующая ui-элемент, используется в ui-тестах 
-  accessibilityLabel - — Это краткое описание содержимого в элементе, например текст на кнопке, используется в Voice over 
+  
+  accessibilityLabel - Это краткое описание содержимого в элементе, например текст на кнопке, используется в Voice over 
   
 </details>
 
