@@ -57,7 +57,10 @@
 
 <details>
   <summary> Можно ли запустить сторонее приложение из теста? Например Safari </summary>
-  Да можно. Для этого нужно знать bundle id приложения и передать его в качестве аргумента в XCUIApplication. Пример XCUIApplication(bundleIdentifier: "com.apple.mobilesafari").launch() 
+  
+  Да можно. Для этого нужно знать bundle id приложения и передать его в качестве аргумента в XCUIApplication.
+  
+  Пример `XCUIApplication(bundleIdentifier: "com.apple.mobilesafari").launch()` 
 </details>
 
 <details>
