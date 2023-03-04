@@ -6,8 +6,8 @@
 ## Вопросы
 
 <details>
-  <summary>Когда впервые анонсировали XCTest?</summary>
-  XCTest был впервые анонсирован на WWDC 2016 одновременно с выпуском iOS 10
+  <summary>Какие версии iOS поддерживают XCTest?</summary>
+  XCTest поддерживает iOS 10 и выше и XCode версии 7.2 и выше
 </details>
 
 <details>
