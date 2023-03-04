@@ -1,1 +1,1 @@
-# ios-automation-interview
+# Интервью на позицию AQA iOS
