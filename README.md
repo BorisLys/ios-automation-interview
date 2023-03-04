@@ -21,6 +21,13 @@
 </details>
 
 <details>
+  <summary>В чем различие между accessibilityidentifier и accessibilitylabel</summary>
+  accessibilityidentifier - Это строка идентифицирующая ui-элемент, используется в ui-тестах 
+  accessibilityLabel - — Это краткое описание содержимого в элементе, например текст на кнопке, используется в Voice over 
+  
+</details>
+
+<details>
   <summary>Как задать предусловие и постусловие для автотеста?</summary>
   
   С помощью `setUp()` и `tearDown()` методов. Также мы можем задавать эти условия для всего сьюта тестов либо отдельно для каждого теста.  
