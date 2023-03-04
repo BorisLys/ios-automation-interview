@@ -43,10 +43,14 @@
 
 <details>
   <summary>Какие бывают ожидания и как реализовать их в XCTest?</summary>
+  
   Ожидания бывают двух видов явные и не явные.
   
   Явные ожидания можно реализовать несколькими способами:
-  - 
+  - `wait(for expectations: [XCTestExpectation], timeout seconds: TimeInterval)`;
+  - `waitForExistence(timeout:)`.
+  
+  Неявное ожидание можно реализовать - `Thread.sleep(forTimeInterval: 1)`
 </details>
 
 <details>
