@@ -1,9 +1,8 @@
 # Интервью на позицию AQA iOS
 
 <details>
-  <summary>Когда появился XCTest?</summary>
-  
-  > Появился на WWDC 2016 iOS 10
+  <summary>Когда впервые анонсировали XCTest?</summary>
+  XCTest был впервые анонсирован на WWDC 2016 одновременно с выпуском iOS 10
 </details>
 
 <details>
@@ -18,12 +17,17 @@
 
 <details>
   <summary>Как задать предусловие и постусловие для автотеста?</summary>
-  заглушка
+  С помощью setUp и tearDown методов. Также мы можем задавать эти условия для всего сьюта тестов либо отдельно для каждого.
+  
+  Информацию по этому вопросу можно найти [здесь](https://developer.apple.com/documentation/xctest/xctestcase/set_up_and_tear_down_state_in_your_tests)
 </details>
 
 <details>
   <summary>Какие бывают ожидания и как реализовать их в XCTest?</summary>
-  заглушка
+  Ожидания бывают двух видов явные и не явные.
+  
+  Явные ожидания можно реализовать несколькими способами:
+  - 
 </details>
 
 <details>
