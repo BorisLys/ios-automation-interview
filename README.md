@@ -50,6 +50,17 @@
 </details>
 
 <details>
+  <summary>Как сбросить permissions при запуске тестов?</summary>
+  Чтобы сбросить permissions, нужно вызвать метод resetAuthorizationStatus и передать в него значение из enum XCUIProtectedResource
+</details>
+
+
+<details>
+  <summary> Можно ли запустить сторонее приложение из теста? Например Safari </summary>
+  Да можно. Для этого нужно знать bundle id приложения и передать его в качестве аргумента в XCUIApplication. Пример XCUIApplication(bundleIdentifier: "com.apple.mobilesafari").launch() 
+</details>
+
+<details>
   <summary>Какие ты знаешь нативные и не нативные способы реализации автотестов? И какие у них плюсы/минусы</summary>
   заглушка
 </details>
