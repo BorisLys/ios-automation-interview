@@ -2,7 +2,8 @@
 
 <details>
   <summary>Когда появился XCTest?</summary>
-  Появился на WWDC 2016 iOS 10
+  
+  > Появился на WWDC 2016 iOS 10
 </details>
 
 <details>
